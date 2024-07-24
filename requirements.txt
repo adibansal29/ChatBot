@@ -1,0 +1,17 @@
+streamlit
+langchain
+fastapi
+uvicorn
+joblib
+numpy
+pandas
+flask
+ndjson
+cohere
+langchain_community
+langchain_cohere
+langchain_core
+matplotlib
+tensorflow
+scikit-learn
+chromadb==0.5.3
