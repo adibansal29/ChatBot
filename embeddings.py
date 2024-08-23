@@ -30,7 +30,7 @@ text_splitter=RecursiveCharacterTextSplitter(
 splits=text_splitter.split_documents(docs)
 
 # Create the vector database
-persist_directory = 'Enphase_DB'
+persist_directory = 'DB'
 
 embedding=CohereEmbeddings()
 vectordb = Chroma.from_documents(

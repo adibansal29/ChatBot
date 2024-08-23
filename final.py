@@ -18,7 +18,7 @@ _ = load_dotenv(find_dotenv())
 cohere.api_key  = os.environ['COHERE_API_KEY']
 
 # Load the embeddings
-persist_directory = "Enphase_DB"
+persist_directory = "DB"
 embedding=CohereEmbeddings()
 vectordb = Chroma(persist_directory=persist_directory, embedding_function=embedding)
 retriever=vectordb.as_retriever()
